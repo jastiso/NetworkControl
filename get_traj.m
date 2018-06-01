@@ -4,7 +4,7 @@ function [ traj_dist, state_corr ] = get_traj( X, xT, nTime)
 %   inputs:
 % X         : the state space. should be 4
 % xT        : the target state. Should be 2D (here it is post freq state)
-% nTrial    : number of trials
+% nTime     : number of time points
 %
 %   outputs:
 % traj_dist     : norm of distance from target over time
