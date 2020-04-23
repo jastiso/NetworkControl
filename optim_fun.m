@@ -17,6 +17,8 @@
 %       large error, too short will not give enough time for control
 % rho   weights energy and distance constraints. Small rho leads to larger
 %       energy
+% x0    (Nx1) the intial state of your system
+% xf    (Nx1) the final state of your system
 
 function [X_opt, U_opt, n_err] = optim_fun(A, T, B, x0, xf, rho, S)
 
