@@ -13,7 +13,7 @@ Specifically, it contains 4 functions:
 (5) get_traj                                  This takes the output from open_loop_control and calculates similarity measures to a target state (correlation and Frobenius norm distance)
 
 ## White Matter Network Architecture Guides Direct Electrical Stimulation through Optimal State Transitions
-These are key functions needed to produce results for the above paper in Cell Reports ([from journal](https://www.sciencedirect.com/science/article/pii/S2211124719310411), or [from personal website](http://www.jenniferstiso.com/publications/)
+These are key functions needed to produce results for the above paper in Cell Reports ([from journal](https://www.sciencedirect.com/science/article/pii/S2211124719310411), or [from personal website](http://www.jenniferstiso.com/publications/))
 
 ![stim_control](graphical_abstract.png)
 
